@@ -68,6 +68,7 @@ function post_submit(){
     setTimeout(() => {
         document.getElementById('load').classList.add('hidden')
         document.getElementById('done').classList.remove('hidden')
+        document.getElementById('done').classList.remove('opacity-0')
     }, 1000);
     setTimeout(() => {
         document.getElementById('done').classList.add('opacity-0')

@@ -521,6 +521,10 @@ video {
     border-radius: 1rem
 }
 
+.translate-x-60{
+    transform: translateX(15rem);
+}
+
 .rounded-full {
     border-radius: 9999px
 }
@@ -727,6 +731,11 @@ video {
 .text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity, 1))
+}
+
+
+.opacity-0 {
+    opacity: 0
 }
 
 .opacity-50 {
